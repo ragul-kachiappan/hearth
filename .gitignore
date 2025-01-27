@@ -176,3 +176,28 @@ cython_debug/
 .dev_rough
 
 .vscode/settings.json
+
+# Local Terraform state
+*.tfstate
+*.tfstate.*
+
+# Backup files created by Terraform
+*.tfstate.backup
+
+# Crash logs
+crash.log
+
+# Ignore override files (these are local-only customizations)
+*.tfvars
+*.tfvars.json
+
+# Ignore sensitive plan outputs
+*.tfplan
+
+# Ignore Terraform providers
+.terraform/
+.terraform.lock.hcl
+
+# Ignore variable definition files with sensitive information
+# Uncomment if you use .auto.tfvars for automation and want to exclude them
+# *.auto.tfvars
