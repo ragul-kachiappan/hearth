@@ -1,8 +1,77 @@
 # Python
-__pycache__
-app.egg-info
-*.pyc
-.mypy_cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+bin/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+.pytest_cache/
 .coverage
-htmlcov
-.venv
+htmlcov/
+.tox/
+.nox/
+.env*
+
+# Virtual Environment
+venv/
+.venv/
+ENV/
+env/
+.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Docker
+docker/
+Dockerfile
+.dockerignore
+docker-compose*.yml
+
+# Development
+tests/
+test/
+docs/
+*.md
+LICENSE
+*.log
+*.log.*
+logs/
+tmp/
+temp/
+
+# Project specific
+static/  # since it's mounted as a volume
+.ruff_cache/
+.mypy_cache/
+.uvdata/
+
+
+
+# CI/CD
+.github/
+.gitlab/
+.circleci/

@@ -2,7 +2,7 @@
 set -e
 
 # Run with Gunicorn using Uvicorn workers
-exec gunicorn app.main:app \
+exec gunicorn src.app.main:app \
     --workers 4 \
     --worker-class uvicorn.workers.UvicornWorker \
     --bind 0.0.0.0:8080 \

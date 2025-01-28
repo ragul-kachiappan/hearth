@@ -8,3 +8,6 @@ script = "source .venv/bin/activate"
 [hooks.leave]
 shell = "bash"
 script = "deactivate"
+
+[tools]
+python = "3.12.8"
