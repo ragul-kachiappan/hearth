@@ -1,5 +1,8 @@
 #!/bin/bash
 set -e
+set -o errexit
+set -o pipefail
+set -o nounset
 
 # Function to check if PostgreSQL is ready
 wait_for_postgres() {

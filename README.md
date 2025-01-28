@@ -29,6 +29,18 @@ I'm building it mainly to test my newly acquired skills and deep dive into it.
 - prometheus, elk stack for monitoring and logging.
 - perform server profiling with wrk (sync vs async)
 - NLP Abuse detection 
+- maybe terraform for provisioning some AWS resources like ECR, Bucket, SSM
+
+Road to k8s deployment
+[x] - Docker
+[ ] - Docker optimization
+[ ] - local k8s setup
+[ ] - terraform for AWS resources
+[ ] - helm chart
+[ ] - manual deployment
+[ ] - Argo, csi secrets store, istio setup
+[ ] - cicd for docker build and push, argo sync
+[ ] - GKE setup
 
 I want this project to encapsulate everything I have learnt regarding backend, devops and AI.
 ```
