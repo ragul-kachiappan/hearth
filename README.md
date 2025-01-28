@@ -27,6 +27,10 @@ I'm building it mainly to test my newly acquired skills and deep dive into it.
 - Deployment to GKE with GCP free credits
 - cicd for linting checks (ruff, yaml, toml, js, html, css).
 - prometheus, elk stack for monitoring and logging.
+- perform server profiling with wrk (sync vs async)
+- NLP Abuse detection 
+
+I want this project to encapsulate everything I have learnt regarding backend, devops and AI.
 ```
 Environment Variables:
 
