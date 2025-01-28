@@ -34,7 +34,6 @@ I want this project to encapsulate everything I have learnt regarding backend, d
 ```
 Environment Variables:
 
-Could move them to a .env file
 Should use more secure password management in production
 
 
