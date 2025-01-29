@@ -41,6 +41,7 @@ Road to k8s deployment
 [ ] - Argo, csi secrets store, istio setup
 [ ] - cicd for docker build and push, argo sync
 [ ] - GKE setup
+[ ] - Deepseek R1/LLama for local server, Gemini free tier for cloud
 
 I want this project to encapsulate everything I have learnt regarding backend, devops and AI.
 ```
