@@ -3,7 +3,10 @@ _.file = '.env'
 
 [hooks.enter]
 shell = "bash"
-script = "source .venv/bin/activate"
+script = """
+uv sync --frozen
+source .venv/bin/activate
+"""
 
 [hooks.leave]
 shell = "bash"
