@@ -23,6 +23,7 @@ I'm building it mainly to test my newly acquired skills and deep dive into it.
 - Logging to sentry.
 - Possibly Oauth with gmail. Not mandatory.
 - Proper test suite.
+- mypy static type checks.
 - Proper markdown docs.
 - Deployment to GKE with GCP free credits
 - cicd for linting checks (ruff, yaml, toml, js, html, css).
