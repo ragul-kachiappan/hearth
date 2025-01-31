@@ -28,7 +28,7 @@ I'm building it mainly to test my newly acquired skills and deep dive into it.
 - cicd for linting checks (ruff, yaml, toml, js, html, css).
 - prometheus, elk stack for monitoring and logging.
 - perform server profiling with wrk (sync vs async)
-- NLP Abuse detection 
+- NLP Abuse detection
 - maybe terraform for provisioning some AWS resources like ECR, Bucket, SSM
 
 Road to k8s deployment
