@@ -31,6 +31,8 @@ I'm building it mainly to test my newly acquired skills and deep dive into it.
 - perform server profiling with wrk (sync vs async)
 - NLP Abuse detection
 - maybe terraform for provisioning some AWS resources like ECR, Bucket, SSM
+- Add makefile for defining instructions for specific purposes
+- Add .vscode configs
 
 Road to k8s deployment
 - [x] Docker
