@@ -1,11 +1,11 @@
 # hearth
 
-Build a local chat room with Llama based bot feature accessible via Wifi.
 
 Tech Stack
-- Starlette for minimal web server
+- Django for API server
+- Websockets for socket server
 - Postgres (could be NoSQL)
-- std html, css, js for frontend. With htmx and lightweight frameworks like alpine
+- std html, css, js for frontend. With htmx and lightweight frameworks like alpine. Full react frontend for next phase
 - Containerized with Docker
 - Deployed with k8s along with ArgoCD. (microk8s or something similar)
 
