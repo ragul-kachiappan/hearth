@@ -1,5 +1,5 @@
 [project]
-name = "hearth-with-ai"
+name = "hearth"
 version = "0.1.0"
 description = "Chat Room with builtin AI support."
 readme = "README.md"
