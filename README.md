@@ -1,4 +1,5 @@
 # hearth
+`STATUS: Side Project on hold. Will resume when learning js`
 
 
 Tech Stack
